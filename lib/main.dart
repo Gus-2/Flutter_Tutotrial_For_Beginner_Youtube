@@ -20,14 +20,11 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('Clicked !');
-          },
-          icon: const Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      body: Container(
+        color: Colors.grey[400],
+        padding: const EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        margin: const EdgeInsets.all(30.0),
+        child: const Text('Hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {},
